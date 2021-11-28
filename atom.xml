@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://dobepure.github.io/child/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
   
-  <link href="http://dobepure.github.io/child/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2021-11-28T06:30:56.568Z</updated>
-  <id>http://dobepure.github.io/child/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="http://dobepure.github.io/child/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://dobepure.github.io/child/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <link href="http://yoursite.com/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-11-27T15:48:55.000Z</published>
     <updated>2021-11-28T06:30:56.568Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://dobepure.github.io/child/2021/11/27/hello-world/"/>
-    <id>http://dobepure.github.io/child/2021/11/27/hello-world/</id>
+    <link href="http://yoursite.com/2021/11/27/hello-world/"/>
+    <id>http://yoursite.com/2021/11/27/hello-world/</id>
     <published>2021-11-27T08:30:19.651Z</published>
     <updated>2021-11-27T08:30:19.651Z</updated>
     
