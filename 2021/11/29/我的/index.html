@@ -17,20 +17,20 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>我的第一篇博客 | Hexo</title>
-  <meta name="description" content="#简介这是我的第一篇”hexo”文章">
+  <title>PAT-B1067试密码c++满分题解 | Hexo</title>
+  <meta name="description" content="{    ##include &lt;bits&#x2F;stdc++.h&gt;    using namespace std;    using gg &#x3D; long long; int main()&amp;#123;     ios::sync_with_stdio(false);     cin.tie(0);     string psw, p;     gg N;     cin &gt;&gt; ps">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇博客">
-<meta property="og:url" content="http://yoursite.com/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:title" content="PAT-B1067试密码c++满分题解">
+<meta property="og:url" content="http://yoursite.com/2021/11/29/%E6%88%91%E7%9A%84/index.html">
 <meta property="og:site_name" content="Dobepure的博客">
-<meta property="og:description" content="#简介这是我的第一篇”hexo”文章">
+<meta property="og:description" content="{    ##include &lt;bits&#x2F;stdc++.h&gt;    using namespace std;    using gg &#x3D; long long; int main()&amp;#123;     ios::sync_with_stdio(false);     cin.tie(0);     string psw, p;     gg N;     cin &gt;&gt; ps">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-27T15:48:55.000Z">
-<meta property="article:modified_time" content="2021-11-28T06:30:56.568Z">
+<meta property="article:published_time" content="2021-11-29T13:42:05.591Z">
+<meta property="article:modified_time" content="2021-11-29T13:46:30.131Z">
 <meta property="article:author" content="Dobepure">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://yoursite.com/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/index.html">
+  <link rel="canonical" href="http://yoursite.com/2021/11/29/%E6%88%91%E7%9A%84/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Dobepure的博客" type="application/atom+xml">
   
@@ -311,14 +311,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-我的第一篇博客" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-我的" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇博客
+      PAT-B1067试密码c++满分题解
     </h1>
   
 
@@ -326,8 +326,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="article-date">
-	  <time datetime="2021-11-27T15:48:55.000Z" itemprop="datePublished">2021-11-27</time>
+	<a href="/2021/11/29/%E6%88%91%E7%9A%84/" class="article-date">
+	  <time datetime="2021-11-29T13:42:05.591Z" itemprop="datePublished">2021-11-29</time>
 	</a>
 </span>
         
@@ -342,13 +342,38 @@
 	</span>
 
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/29/%E6%88%91%E7%9A%84/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>#简介<br>这是我的第一篇”hexo”文章</p>
+        <p>{<br>    ##include &lt;bits/stdc++.h&gt;<br>    using namespace std;<br>    using gg = long long;</p>
+<pre><code>int main()&#123;
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    string psw, p;
+    gg N;
+    cin &gt;&gt; psw &gt;&gt; N;
+    cin.get(); 
+    while(getline(cin, p) &amp;&amp; p != &quot;#&quot;) &#123;
+        
+        if(p == psw)&#123;
+            cout &lt;&lt; &quot;Welcome in&quot;;
+            break;
+        &#125;
+        cout &lt;&lt; &quot;Wrong password: &quot; &lt;&lt; p &lt;&lt; &quot;\n&quot;;
+        if(--N == 0)&#123;
+            cout &lt;&lt; &quot;Account locked&quot;;
+            break;
+        &#125;
+    &#125;
+    
+    
+    return 0;
+&#125;
+</code></pre>
+<p>}</p>
 
       
     </div>
@@ -358,7 +383,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://yoursite.com/2021/11/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="我的第一篇博客" target="_blank" rel="external">http://yoursite.com/2021/11/27/我的第一篇博客/</a>
+      <a href="http://yoursite.com/2021/11/29/%E6%88%91%E7%9A%84/" title="PAT-B1067试密码c++满分题解" target="_blank" rel="external">http://yoursite.com/2021/11/29/我的/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -404,13 +429,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2021/11/29/SS/" title="SS"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2021/11/27/hello-world/" title="Hello World"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2021/11/29/SS/" title="SS"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     

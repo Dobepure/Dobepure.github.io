@@ -1,20 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Dobepure的博客</title>
   
   
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-11-28T06:30:56.568Z</updated>
+  <updated>2021-11-29T13:46:30.131Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Dobepure</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PAT-B1067试密码c++满分题解</title>
+    <link href="http://yoursite.com/2021/11/29/%E6%88%91%E7%9A%84/"/>
+    <id>http://yoursite.com/2021/11/29/%E6%88%91%E7%9A%84/</id>
+    <published>2021-11-29T13:42:05.591Z</published>
+    <updated>2021-11-29T13:46:30.131Z</updated>
+    
+    <content type="html"><![CDATA[<p>{<br>    ##include &lt;bits/stdc++.h&gt;<br>    using namespace std;<br>    using gg = long long;</p><pre><code>int main()&#123;    ios::sync_with_stdio(false);    cin.tie(0);    string psw, p;    gg N;    cin &gt;&gt; psw &gt;&gt; N;    cin.get();     while(getline(cin, p) &amp;&amp; p != &quot;#&quot;) &#123;                if(p == psw)&#123;            cout &lt;&lt; &quot;Welcome in&quot;;            break;        &#125;        cout &lt;&lt; &quot;Wrong password: &quot; &lt;&lt; p &lt;&lt; &quot;\n&quot;;        if(--N == 0)&#123;            cout &lt;&lt; &quot;Account locked&quot;;            break;        &#125;    &#125;            return 0;&#125;</code></pre><p>}</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;{&lt;br&gt;    ##include &amp;lt;bits/stdc++.h&amp;gt;&lt;br&gt;    using namespace std;&lt;br&gt;    using gg = long long;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;int main()&amp;#123;
+    ios</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SS</title>
+    <link href="http://yoursite.com/2021/11/29/SS/"/>
+    <id>http://yoursite.com/2021/11/29/SS/</id>
+    <published>2021-11-29T13:03:29.000Z</published>
+    <updated>2021-11-29T13:03:29.761Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>我的第一篇博客</title>
