@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-11-29T13:46:30.131Z</updated>
+  <updated>2021-11-30T13:18:30.849Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>语法糖</title>
+    <link href="http://yoursite.com/2021/11/30/%E8%AF%AD%E6%B3%95%E7%B3%96/"/>
+    <id>http://yoursite.com/2021/11/30/%E8%AF%AD%E6%B3%95%E7%B3%96/</id>
+    <published>2021-11-30T13:12:55.000Z</published>
+    <updated>2021-11-30T13:18:30.849Z</updated>
+    
+    <content type="html"><![CDATA[<p>语法糖(Syntactic sugar)也译为糖衣语法，是由英国科学家Peter J.Landin发明的一个术语，指计算机语言中添加某种语法，这种语法对语言功能没有影响，但是更方便程序员使用。通常来说使用语法糖能够增加程序的可读性，从而减少程序代码的出错机会。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;语法糖(Syntactic sugar)也译为糖衣语法，是由英国科学家Peter J.Landin发明的一个术语，指计算机语言中添加某种语法，这种语法对语言功能没有影响，但是更方便程序员使用。通常来说使用语法糖能够增加程序的可读性，从而减少程序代码的出错机会。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>PAT-B1067试密码c++满分题解</title>
